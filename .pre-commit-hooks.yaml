@@ -1,6 +1,6 @@
 - id: pre-commit-generate-manifests
   name: Generate Configmap Manifests
-  entry: ops/generate-grafana-manifests
+  entry: ops/generate-grafana-manifests.sh
   language: script
   description: Generates ConfigMap manifests from source files
   always_run: true
