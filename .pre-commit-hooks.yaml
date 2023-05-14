@@ -1,7 +1,7 @@
 - id: pre-commit-generate-manifests
   name: Generate Configmap Manifests
   entry: ops/generate-grafana-manifests
-  language: python
+  language: script
   description: Generates ConfigMap manifests from source files
   always_run: true
   stages: [commit-msg]
